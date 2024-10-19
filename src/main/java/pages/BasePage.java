@@ -1,4 +1,4 @@
-package page;
+package pages;
 
 public class BasePage {
     protected String BASE_URL = "https://github.com/";

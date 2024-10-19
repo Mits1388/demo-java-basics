@@ -1,4 +1,4 @@
-package page;
+package pages;
 
 public class HomePage extends BasePage {
     protected String HOME_URL = BASE_URL + "Mits1388";
