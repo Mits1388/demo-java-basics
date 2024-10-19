@@ -1,4 +1,4 @@
-package pages;
+package by.itacademy.artsiommitskevich.pages;
 
 public class LoginPage extends BasePage {
     protected String LOGIN_PAGE = BASE_URL + "demo-java-basics";

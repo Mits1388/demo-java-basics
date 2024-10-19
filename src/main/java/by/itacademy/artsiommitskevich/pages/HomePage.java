@@ -1,4 +1,4 @@
-package pages;
+package by.itacademy.artsiommitskevich.pages;
 
 public class HomePage extends BasePage {
     protected String HOME_URL = BASE_URL + "Mits1388";

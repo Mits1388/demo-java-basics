@@ -1,4 +1,4 @@
-package pages;
+package by.itacademy.artsiommitskevich.pages;
 
 public class Main {
 

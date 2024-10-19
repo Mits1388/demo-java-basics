@@ -1,4 +1,4 @@
-package pages;
+package by.itacademy.artsiommitskevich.pages;
 
 public class BasePage {
     protected String BASE_URL = "https://github.com/";
