@@ -48,7 +48,7 @@ public class CalculatorTest {
 
     }
     @Test
-    public void testHeight(){
+    public void test3(){
         WebDriver driver = new ChromeDriver();
         driver.get("https://svyatoslav.biz/testlab/wt/index.php");
 
