@@ -13,16 +13,20 @@ public class CalculatorTest {
         WebDriver webDriver = new ChromeDriver();
         webDriver.get("https://svyatoslav.biz/testlab/wt/index.php");
         String xPathButton = "/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[6]/td/input";
+        String xPathName = "/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[2]/td[2]/input";
+        By byName = By.xpath(xPathName);
         By by = By.xpath(xPathButton);
-        WebElement webElement = webDriver.findElement(by);
-        webElement.click();
+        WebElement webElementName = webDriver.findElement(byName);
+        webElementName.sendKeys("Artsiom");
+        WebElement webElementButton = webDriver.findElement(by);
+        webElementButton.click();
     }
     @Test
-    public void testSite2(){
+    public void testName(){
 
     }
     @Test
-    public void testSite3(){
+    public void testHeight(){
 
     }
 }
